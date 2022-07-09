@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\animations">
+      <UniqueIdentifier>{45e739d1-492f-44b9-a6a0-c48243e6ae91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\structs">
+      <UniqueIdentifier>{cd5073b3-0947-453d-8f60-354957c1f3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scenes">
+      <UniqueIdentifier>{e851fe46-5525-4f0d-aded-281a95841cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes">
+      <UniqueIdentifier>{180eee5e-2ede-426c-ae55-eb10145fac6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animations">
+      <UniqueIdentifier>{54c24487-db1c-4864-a6b8-fd416d092a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animations\RectangleAnimation">
+      <UniqueIdentifier>{897a2d72-29fe-4dc1-82c6-2d1961a97e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes\RectangleScene">
+      <UniqueIdentifier>{d4668743-3080-4c62-a467-d8f33eb16213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationAPI_ClientExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleAnimation_draw.cpp">
+      <Filter>Source Files\animations\RectangleAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleAnimation_setters.cpp">
+      <Filter>Source Files\animations\RectangleAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleAnimation_constructor.cpp">
+      <Filter>Source Files\animations\RectangleAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleScene_constructor.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleScene_isLiving.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleShape_tick.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleScene_destructor.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleScene_draw.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleScene_handleEvents.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleShape_handleKeyPressed.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleScene_handleKeys.cpp">
+      <Filter>Source Files\scenes\RectangleScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RectangleAnimation.hpp">
+      <Filter>Header Files\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="point.hpp">
+      <Filter>Header Files\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleScene.hpp">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
