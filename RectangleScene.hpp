@@ -1,8 +1,13 @@
 #pragma once
+#include "Scene.hpp"
 #include "RectangleAnimation.hpp"
 
-class RectangleScene {
+class SceneGroup;
+
+class RectangleScene : Scene{
 private:
+	SceneGroup* group;
+
 	sf::RenderWindow* window;
 	sf::RectangleShape* shape;
 	std::vector<sf::Color> colors;
@@ -21,11 +26,7 @@ private:
 
 
 public:
-	bool isLving();
-
-	void tick();
-
-	RectangleScene();
+	RectangleScene(SceneGroup* group_, sf::RenderWindow* window_);
 	~RectangleScene();
 
 };

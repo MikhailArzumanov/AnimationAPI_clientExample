@@ -1,11 +1,9 @@
 #include "RectangleScene.hpp"
 
 
-const sf::VideoMode videoMode(1280, 720);
-const std::string windowName = "example window";
-
-RectangleScene::RectangleScene() {
-	window = new sf::RenderWindow(videoMode, windowName);
+RectangleScene::RectangleScene(SceneGroup* group_, sf::RenderWindow* window_) {
+	group = group_;
+	window = window_;
 	shape = new sf::RectangleShape({ 100.f, 100.f });
 	colors = std::vector<sf::Color>({ sf::Color::Black,  sf::Color::Red, sf::Color::Green, sf::Color::Blue});
 	animation = new RectangleAnimation(shape, window, colors);
