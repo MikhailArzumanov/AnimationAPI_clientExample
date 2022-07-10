@@ -11,20 +11,23 @@ class SpriteAnimation : public AnmAPI::Animation, public AnmAPI::IHasPosition, p
 private:
 	sf::Texture* texture;
 	sf::Sprite* sprite;
+
 	sf::RenderWindow* window;
+
 	int frameWidth, frameHeight;
+	int ticksPerFrame, ticksCounter;
 
 	point p;
-	point dims;
+	//point dims;
 	float scale;
 
 public:
-	SpriteAnimation(sf::Texture* texture_, int statesAmount_, sf::RenderWindow* window_, int frameWidth_, int frameHeight_);
+	SpriteAnimation(sf::Texture* texture_, int statesAmount_, std::vector<int> framesAmounts_, sf::RenderWindow* window_, int ticksPerFrame_, int frameWidth_, int frameHeight_);
 	~SpriteAnimation();
 
 
 	void draw();
-	//void animate();
+	void animate();
 
 	void setScale(float scale_);
 	void setPosition(float x, float y);
