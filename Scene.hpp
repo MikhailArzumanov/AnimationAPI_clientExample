@@ -1,6 +1,5 @@
 #pragma once
 
-
 class Scene {
 public:
 	virtual bool isLiving() = 0;

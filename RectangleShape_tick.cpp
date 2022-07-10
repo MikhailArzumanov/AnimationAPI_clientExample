@@ -1,5 +1,4 @@
 #include "RectangleScene.hpp"
-
 void RectangleScene::tick() {
 	handleEvents();
 	handleKeys();

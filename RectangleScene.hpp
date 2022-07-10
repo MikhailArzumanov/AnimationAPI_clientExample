@@ -4,7 +4,7 @@
 
 class SceneGroup;
 
-class RectangleScene : Scene{
+class RectangleScene : public Scene{
 private:
 	SceneGroup* group;
 
@@ -19,14 +19,16 @@ private:
 private:
 	void handleKeyPressed(sf::Event theEvent);
 	void handleEvents();
-
 	void handleKeys();
-
 	void draw();
 
 
 public:
 	RectangleScene(SceneGroup* group_, sf::RenderWindow* window_);
+
+	bool isLiving();
+	void tick();
+
 	~RectangleScene();
 
 };

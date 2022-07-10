@@ -1,5 +1,6 @@
 #include "RectangleScene.hpp"
 
+
 void RectangleScene::draw() {
 	window->clear(sf::Color::White);
 	animation->setScale(scale);

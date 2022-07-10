@@ -1,4 +1,4 @@
-#include "RectangleScene.hpp"
+#include "SceneGroup.hpp"
 #include "SFML/Window/Event.hpp"
 
 void RectangleScene::handleKeyPressed(sf::Event theEvent) {
@@ -8,6 +8,9 @@ void RectangleScene::handleKeyPressed(sf::Event theEvent) {
 		break;
 	case sf::Keyboard::E:
 		scale /= 1.1f;
+		break;
+	case sf::Keyboard::T:
+		group->proccessKey(theEvent.key.code);
 		break;
 	}
 }

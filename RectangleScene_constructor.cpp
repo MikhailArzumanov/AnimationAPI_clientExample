@@ -1,6 +1,7 @@
 #include "RectangleScene.hpp"
 
 
+
 RectangleScene::RectangleScene(SceneGroup* group_, sf::RenderWindow* window_) {
 	group = group_;
 	window = window_;
