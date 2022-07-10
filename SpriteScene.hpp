@@ -12,21 +12,23 @@ private:
 
 	SpriteAnimation* animation;
 
+	bool wasMovingRight;
+
 	point rectPosition;
 	float scale;
 
 private:
 	void handleKeyPressed(sf::Event theEvent);
 	void handleEvents();
-
 	void handleKeys();
 
 	void draw();
-
-
 public:
-
 	SpriteScene(SceneGroup* group_, sf::RenderWindow* window_);
+
+	bool isLiving();
+	void tick();
+
 	~SpriteScene();
 
 };
