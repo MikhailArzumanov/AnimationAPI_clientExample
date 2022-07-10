@@ -1,7 +1,7 @@
-#include "RectangleScene.hpp"
+#include "SpriteScene.hpp"
 
 
-void RectangleScene::draw() {
+void SpriteScene::draw() {
 	window->clear(sf::Color::White);
 	animation->setScale(scale);
 	animation->setPosition(rectPosition.x, rectPosition.y);

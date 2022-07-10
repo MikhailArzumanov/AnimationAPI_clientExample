@@ -1,5 +1,5 @@
-#include "RectangleScene.hpp"
-void RectangleScene::tick() {
+#include "SpriteScene.hpp"
+void SpriteScene::tick() {
 	handleEvents();
 	handleKeys();
 	animation->animate();

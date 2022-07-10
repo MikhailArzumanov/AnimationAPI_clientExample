@@ -1,34 +1,34 @@
 #pragma once
 #include "Scene.hpp"
-#include "RectangleAnimation.hpp"
+#include "SpriteAnimation.hpp"
 
 class SceneGroup;
 
-class RectangleScene : public Scene{
+class SpriteScene : public Scene{
 private:
 	SceneGroup* group;
-
 	sf::RenderWindow* window;
-	sf::RectangleShape* shape;
-	std::vector<sf::Color> colors;
+	sf::Texture* texture;
 
-	RectangleAnimation* animation;
+	SpriteAnimation* animation;
+
+	bool wasMovingRight;
 
 	point rectPosition;
 	float scale;
+
 private:
 	void handleKeyPressed(sf::Event theEvent);
 	void handleEvents();
 	void handleKeys();
+
 	void draw();
-
-
 public:
-	RectangleScene(SceneGroup* group_, sf::RenderWindow* window_);
+	SpriteScene(SceneGroup* group_, sf::RenderWindow* window_);
 
 	bool isLiving();
 	void tick();
 
-	~RectangleScene();
+	~SpriteScene();
 
 };

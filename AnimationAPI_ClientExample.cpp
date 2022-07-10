@@ -1,9 +1,9 @@
-#include "RectangleScene.hpp"
+#include "SceneGroup.hpp"
 
 int main(){
-	RectangleScene* scene = new RectangleScene();
-	while (scene->isLving()) {
-		scene->tick();
+	SceneGroup* group = new SceneGroup();
+	while (group->isLiving()) {
+		group->tick();
 	}
-	delete scene;
+	delete group;
 }

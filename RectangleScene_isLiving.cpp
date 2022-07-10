@@ -1,5 +1,3 @@
 #include "RectangleScene.hpp"
 
-bool RectangleScene::isLving() {
-	return window->isOpen();
-}
+bool RectangleScene::isLiving() {return window->isOpen();}

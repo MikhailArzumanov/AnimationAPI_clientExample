@@ -34,6 +34,15 @@
     <Filter Include="Source Files\scenes\RectangleScene">
       <UniqueIdentifier>{d4668743-3080-4c62-a467-d8f33eb16213}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\animations\SpriteAnimation">
+      <UniqueIdentifier>{a6ae08cf-d8a1-4d6d-8895-48fb4b4e9d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes\SpriteScene">
+      <UniqueIdentifier>{91f82fb5-c468-4924-8f10-2fb6c8d72875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes\SceneGroup">
+      <UniqueIdentifier>{54da2ac6-09e0-4b30-85b1-7f5a695d88a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimationAPI_ClientExample.cpp">
@@ -72,6 +81,60 @@
     <ClCompile Include="RectangleScene_handleKeys.cpp">
       <Filter>Source Files\scenes\RectangleScene</Filter>
     </ClCompile>
+    <ClCompile Include="SpriteAnimation_constructor.cpp">
+      <Filter>Source Files\animations\SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation_draw.cpp">
+      <Filter>Source Files\animations\SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation_setters.cpp">
+      <Filter>Source Files\animations\SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation_destructor.cpp">
+      <Filter>Source Files\animations\SpriteAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_constructor.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_destructor.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_draw.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_handleEvents.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_handleKeys.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_isLiving.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_handleKeyPressed.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteScene_tick.cpp">
+      <Filter>Source Files\scenes\SpriteScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_constructor.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_destructor.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_isLiving.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_tick.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_proccessKey.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation_animate.cpp">
+      <Filter>Source Files\animations\SpriteAnimation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RectangleAnimation.hpp">
@@ -81,6 +144,18 @@
       <Filter>Header Files\structs</Filter>
     </ClInclude>
     <ClInclude Include="RectangleScene.hpp">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.hpp">
+      <Filter>Header Files\animations</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteScene.hpp">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGroup.hpp">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
       <Filter>Header Files\scenes</Filter>
     </ClInclude>
   </ItemGroup>
