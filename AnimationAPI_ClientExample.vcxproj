@@ -166,6 +166,10 @@
     <ClCompile Include="RectangleShape_tick.cpp" />
     <ClCompile Include="SceneGroup_constructor.cpp" />
     <ClCompile Include="SceneGroup_destructor.cpp" />
+    <ClCompile Include="SceneGroup_isLiving.cpp" />
+    <ClCompile Include="SceneGroup_proccessKey.cpp" />
+    <ClCompile Include="SceneGroup_tick.cpp" />
+    <ClCompile Include="SpriteAnimation_animate.cpp" />
     <ClCompile Include="SpriteAnimation_constructor.cpp" />
     <ClCompile Include="SpriteAnimation_destructor.cpp" />
     <ClCompile Include="SpriteAnimation_draw.cpp" />

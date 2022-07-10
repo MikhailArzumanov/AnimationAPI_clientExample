@@ -123,6 +123,18 @@
     <ClCompile Include="SceneGroup_destructor.cpp">
       <Filter>Source Files\scenes\SceneGroup</Filter>
     </ClCompile>
+    <ClCompile Include="SceneGroup_isLiving.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_tick.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGroup_proccessKey.cpp">
+      <Filter>Source Files\scenes\SceneGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation_animate.cpp">
+      <Filter>Source Files\animations\SpriteAnimation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RectangleAnimation.hpp">
